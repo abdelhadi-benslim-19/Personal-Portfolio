@@ -16,7 +16,25 @@
   }
 
   .dropdown {
-    display: block;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 10;
+    width: 100%;
+    max-height: 300px;
+    overflow: auto;
+  }
+  
+  .dropdown a {
+    color: #000;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .dropdown a:hover {
+    background-color: #eee;
   }
 
   .nav--btn {
