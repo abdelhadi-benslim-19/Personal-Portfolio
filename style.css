@@ -66,6 +66,33 @@ nav {
   margin-left: 10px;
 }
 
+.nav--btn {
+  display: none;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 10;
+  width: 100%;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.dropdown a {
+  color: #000;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.dropdown a:hover {
+  background-color: #eee;
+}
+
+
 .home--section {
   display: grid;
   grid-template-columns: 1fr 1fr;
